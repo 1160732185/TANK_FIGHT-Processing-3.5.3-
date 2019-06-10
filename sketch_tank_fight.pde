@@ -273,9 +273,9 @@ if(dict.get("greenpaorow2")==dict.get("bluerow")&&dict.get("greenpaocol2")==dict
 if(dict.get("greenpaorow2")==dict.get("yellowrow")&&dict.get("greenpaocol2")==dict.get("yellowcol"))  {dict.set("yellow",0);print("green kills yellow!");dict.set("greenpaorow2",0);dict.set("greenpao",dict.get("greenpao")-1);}
 }
 if(dict.get("yellow")==1&&dict.get("yellowpaorow1")!=0){
-if(dict.get("yellowpaorow1")==dict.get("redrow")&&dict.get("greenpaocol1")==dict.get("redcol"))  {dict.set("red",0);print("yellow kills red!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
-if(dict.get("yellowpaorow1")==dict.get("bluerow")&&dict.get("greenpaocol1")==dict.get("bluecol"))  {dict.set("blue",0);print("yellow kills blue!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
-if(dict.get("yellowpaorow1")==dict.get("greenrow")&&dict.get("greenpaocol1")==dict.get("greencol"))  {dict.set("green",0);print("yellow kills green!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
+if(dict.get("yellowpaorow1")==dict.get("redrow")&&dict.get("yellowpaocol1")==dict.get("redcol"))  {dict.set("red",0);print("yellow kills red!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
+if(dict.get("yellowpaorow1")==dict.get("bluerow")&&dict.get("yellowpaocol1")==dict.get("bluecol"))  {dict.set("blue",0);print("yellow kills blue!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
+if(dict.get("yellowpaorow1")==dict.get("greenrow")&&dict.get("yellowpaocol1")==dict.get("greencol"))  {dict.set("green",0);print("yellow kills green!");dict.set("yellowpaorow1",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
 }
 if(dict.get("yellow")==1&&dict.get("yellowpaorow2")!=0){
 if(dict.get("yellowpaorow2")==dict.get("redrow")&&dict.get("yellowpaocol2")==dict.get("redcol"))  {dict.set("red",0);print("yellow kills red!");dict.set("yellowpaorow2",0);dict.set("yellowpao",dict.get("yellowpao")-1);}
